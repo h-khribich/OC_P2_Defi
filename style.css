@@ -5,7 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
-    color: rgb(77, 66, 66);
+    color: rgb(53, 48, 48);
 }
 
 body {
@@ -79,4 +79,66 @@ nav ul {
     color: rgba(255, 255, 255, 0.877);
     font-weight: 400;
     font-size: 30px;
+}
+
+/* --- SECTION PRESENTATION --- */
+
+#presentation {
+    margin: 20px 15%;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#presentation_para {
+    font-size: 1.4em;
+    padding: 20px 40px;
+    color: rgb(114, 114, 114);
+}
+
+/* Articles */
+
+#presentation_articles { 
+    display: flex;
+    align-self: flex-end;
+}
+
+.article_titre {
+    font-size: 1.3em;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+}
+
+article p { padding: 15px; }
+
+article img {
+    align-self: center;
+}
+
+.article_para {
+    font-size: 0.9em;
+}
+
+/* Testimony */
+
+#testimony {
+    margin: 0px 25%;
+    padding-top: 25px;
+    font-size: 1.3em;
+    text-align: center;
+}
+
+#testimony p {
+    color: rgb(114, 114, 114);
+}
+
+#testimony_name {
+    padding-top: 15px;
+    font-size: 0.8em;
 }
