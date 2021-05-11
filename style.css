@@ -1,0 +1,49 @@
+/* --- LAYOUT --- */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    color: rgb(77, 66, 66);
+}
+
+body {
+    margin: 1% 9%;
+}
+
+/* --- HEADER --- */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Logo */
+
+#header_logo {
+    width: 350px;
+    height: 110px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header_logo img {
+    width: 350px;
+    height: 350px;
+}
+
+/* Nav */
+
+nav {
+    width: 155px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
