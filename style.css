@@ -107,6 +107,7 @@ nav ul {
 
 .article_titre {
     font-size: 1.3em;
+    color: rgb(53, 48, 48);
 }
 
 article {
@@ -123,6 +124,7 @@ article img {
 
 .article_para {
     font-size: 0.9em;
+    color: rgb(114, 114, 114);
 }
 
 /* Testimony */
@@ -141,4 +143,69 @@ article img {
 #testimony_name {
     padding-top: 15px;
     font-size: 0.8em;
+}
+
+/* --- FOOTER --- */
+
+#footer {
+    color: rgba(255, 255, 255, 0.877);
+    background-color:#5B359C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+    height: fit-content;
+}
+
+#footer--title {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    color: rgba(255, 255, 255, 0.877);
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+footer ul {
+    list-style-position: inside;
+}
+
+#footer--icons {
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 400px;
+}
+
+#footer--icons i {
+    color: rgba(240, 236, 236, 0.637);
+
+}
+
+/* Footer blocks */
+
+#footer--block_container {
+    width: 100%;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer--block {
+    width: 250px;
+}
+
+.footer--block_title {
+    text-align: left;
+    color: rgba(240, 236, 236, 0.637);
+}
+
+.footer--block_text {
+    padding: 15px 20px;
+    text-align: left;
+}
+
+.footer--block_text li,
+p {
+    color: rgba(255, 255, 255, 0.877);
 }
